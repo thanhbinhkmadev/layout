@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title></title>
 	
-	<link rel="stylesheet" type="text/css" href="css/carousel/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/carousel/owl.theme.default.min.css">
 	<script src="https://use.fontawesome.com/ead681b26c.js"></script>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	@yield('addcss')
 </head>
 <body>
@@ -24,7 +24,7 @@
 	</section>
 
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/carousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
 	@yield('addjs')
 </body>
 </html>

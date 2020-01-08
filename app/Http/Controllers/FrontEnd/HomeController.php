@@ -11,4 +11,19 @@ class HomeController extends Controller
     {
     	return view('front_end.index');
     }
+
+    public function blog()
+    {
+    	return view('front_end.blog');
+    }
+
+    public function about()
+    {
+    	return view('front_end.about');
+    }
+
+    public function contact()
+    {
+    	return view('front_end.contact'); 
+    }
 }

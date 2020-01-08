@@ -6,21 +6,24 @@
 			</a>		
 		</div>
 		<div class="menu-header">
-			<button type=""></button>
+			<button type="" class="">
+				<i class="fa fa-bars navigation" aria-hidden="true"></i>
+			</button>
 			<ul>
-				<li>
-					<a href="" title="">Home</a>
+				<li class="">
+					<a href="{{route('home')}}" title="">Home</a>
 				</li>
-				<li>
-					<a href="" title="">Blog</a>
+				<li  class="">
+					<a href="{{route('blog')}}" title="">Blog</a>
 				</li>
 
-				<li>
-					<a href="" title="">About</a>
+				<li class="">
+					<a href="{{route('about')}}" title="">About</a>
 				</li>
-				<li>
-					<a href="" title="">Contact</a>
+				<li class="">
+					<a href="{{route('contact')}}" title="">Contact</a>
 				</li>
+				
 			</ul>		
 		</div>	
 	</div>

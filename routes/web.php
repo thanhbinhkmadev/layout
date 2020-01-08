@@ -12,3 +12,7 @@
 */
 
 Route::get('/','FrontEnd\HomeController@index')->name('home');
+
+Route::get('blog','FrontEnd\HomeController@blog')->name('blog');
+Route::get('about','FrontEnd\HomeController@about')->name('about');
+Route::get('contact','FrontEnd\HomeController@contact')->name('contact');

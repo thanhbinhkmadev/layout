@@ -1,7 +1,8 @@
 @extends('front_end.layout.master')
 @section('addcss')
 <style type="text/css">
-	div.menu-header ul li:first-of-type{
+	
+	div.menu-header ul li:nth-of-type(2){
 		border-bottom: 2px solid #54CA89;
 	}
 </style>
@@ -9,152 +10,30 @@
 @section('content')
 <div class="social">
     <p>
-        <span>Home</span>
+        <span>Blog</span>
     </p>
-	<ul>
-		<li>
-			<a href="" title="">
-				<i class="fa fa-facebook-official" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li>
-			<a href="" title="">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li>
-			<a href="" title="">
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li>
-			<a href="" title="">
-				<i class="fa fa-youtube" aria-hidden="true"></i>
-			</a>
-		</li>
-	</ul>
-</div>
-<div class="top-content">
-    <div class="slide-left-content">
-        <a href="" title="">
-            <img src="image/test1.jpg" alt="">
-        </a>
-      
-    </div>
-    <div class="right-content dpn-3">
-        <div class="top-trending">
-            <ul>
-                <a href="" title="">
-                    <li>Trending</li>
-                </a>
-                <a href="" title="">
-                    <li>Comment</li>
-                </a>
-                <a href="" title="">
-                    <li>Lastest</li>
-                </a>
-            </ul>
-        </div>
-        <div class="content-trending">
-            <div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div><div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div>
-            <div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div><div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div><div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div><div class="trending-one">
-                <div class="img-top-trending">
-                    <a href="" title="">
-                        <img src="image/test1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="content-top-trending">
-                    <p class="sub-content-tranding">
-                        Đây là nội dung để test
-                    </p>
-                    <p class="time-trending">
-                    	<i class="fa fa-clock-o" aria-hidden="true"></i> 27/11/1998
-                    </p>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
-<div class="post-title-lastets">
-	<div class="post-title-lastets-p">
-		<p>Danh sách các bài đăng</p>
-	</div>
-    <div class="post-title-lastets-search dpn-3">
-    	 <input type="text" name="">
-    	 <span><i class="fa fa-search" aria-hidden="true"></i></span>
-    </div>
-   
+    <ul>
+        <li>
+            <a href="" title="">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="" title="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="" title="">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
 </div>
 <div class="list-post">
     <div class="post-left">
@@ -276,5 +155,4 @@
     	</ul>
     </div>
 </div>
-
-@endsection 
+@endsection

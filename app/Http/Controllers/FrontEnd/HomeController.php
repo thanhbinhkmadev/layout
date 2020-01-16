@@ -9,12 +9,12 @@ class HomeController extends Controller
 {
     public function index()
     {
-    	return view('front_end.index');
+    	return view('index');
     }
 
     public function blog()
     {
-    	return view('front_end.blog');
+    	return view('blog');
     }
 
     public function about()

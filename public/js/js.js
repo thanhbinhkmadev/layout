@@ -16,6 +16,10 @@ $(document).ready(function(){
 		}
 	});
 
+
+            $('body').removeClass('preloading');
+            $('#preload').delay(900).fadeOut('fast');
+
 	// $('.navigation').click(function(){
 	// 	$('.menu-responsive').removeClass('w-100');
 	// });
